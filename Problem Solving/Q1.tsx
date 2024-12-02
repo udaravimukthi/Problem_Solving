@@ -9,3 +9,15 @@ function countOddNumberInAnArray(arr: number[]): number {
     }
     return count;
 }
+
+//printsmallestNumber in array
+
+function printSmallestNumberInArray(arr: number[]): number {
+    let smallest = arr[0];
+    for(let number of arr){
+        if(number < smallest) {
+            smallest = number;
+        }
+    }
+    return smallest;
+}
